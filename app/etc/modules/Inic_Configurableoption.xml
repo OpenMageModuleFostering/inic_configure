@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Inic_Configurableoption>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Inic_Configurableoption>
+    </modules>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Inic_Configure</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension working for only configurable products</summary>
+    <description>This extension allow you to display simple product's images on configurable product's detail page on change selected their options</description>
+    <notes>This extension working for only configurable products</notes>
+    <authors><author><name>ps_patel</name><user>ps_patel</user><email>pspatel5101987@gmail.com</email></author></authors>
+    <date>2013-10-23</date>
+    <time>08:58:01</time>
+    <contents><target name="magelocal"><dir name="Inic"><dir name="Configurableoption"><dir name="Block"><dir name="Product"><dir name="View"><dir name="Type"><file name="Configurable.php" hash="edbd3bca622ad1dd61f41111ed7c5462"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="99c56548579b7dd9716fc3f2189046c2"/><file name="system.xml" hash="f6c9e0cfb6198c54f0e7f4234ec156b3"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="Configurableoption.xml" hash="7aeb5683c1fb132836f41fdc09cf7922"/></dir><dir name="template"><dir name="Configurableoption"><dir name="catalog"><dir name="product"><dir name="view"><dir name="type"><dir name="options"><file name="configurable.phtml" hash="aa0b1d8804afd9c85eab77b1982ddb9d"/></dir></dir></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Inic_Configurableoption.xml" hash="2357b155b96058ec3934b381d0590367"/></dir></target><target name="mage"><dir name="js"><dir name="configurableoption"><file name="configure.js" hash="c89160bab9f1fc7e89bb01cb43c666b0"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

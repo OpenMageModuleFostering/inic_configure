@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Inic_Configure",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "This extension working for only configurable products",
+    "authors": [
+    {
+        "name": "ps_patel",
+        "email": "pspatel5101987@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Inic_Configurableoption>
+            <version>0.1.0</version>
+        </Inic_Configurableoption>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <configurableoption>
+                    <file>Configurableoption.xml</file>
+                </configurableoption>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <catalog>
+                <rewrite>
+                    <product_view_type_configurable>Inic_Configurableoption_Block_Product_View_Type_Configurable</product_view_type_configurable>
+                </rewrite>
+            </catalog>
+        </blocks>
+    </global>
+</config>
