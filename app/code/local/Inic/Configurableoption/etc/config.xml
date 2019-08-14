@@ -2,19 +2,24 @@
 <config>
     <modules>
         <Inic_Configurableoption>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Inic_Configurableoption>
     </modules>
     <frontend>
         <layout>
             <updates>
                 <configurableoption>
-                    <file>Configurableoption.xml</file>
+                    <file>configurableoption.xml</file>
                 </configurableoption>
             </updates>
         </layout>
     </frontend>
     <global>
+    	<blocks>
+            <configurableoption>
+                <class>Inic_Configurableoption_Block</class>
+            </configurableoption>
+        </blocks>
         <blocks>
             <catalog>
                 <rewrite>

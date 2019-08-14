@@ -1,18 +1,28 @@
 <?xml version="1.0"?>
 <package>
     <name>Inic_Configure</name>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
     <extends/>
-    <summary>This extension working for only configurable products</summary>
-    <description>This extension allow you to display simple product's images on configurable product's detail page on change selected their options</description>
-    <notes>This extension working for only configurable products</notes>
-    <authors><author><name>ps_patel</name><user>ps_patel</user><email>pspatel5101987@gmail.com</email></author></authors>
-    <date>2013-10-23</date>
-    <time>08:58:01</time>
-    <contents><target name="magelocal"><dir name="Inic"><dir name="Configurableoption"><dir name="Block"><dir name="Product"><dir name="View"><dir name="Type"><file name="Configurable.php" hash="edbd3bca622ad1dd61f41111ed7c5462"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="99c56548579b7dd9716fc3f2189046c2"/><file name="system.xml" hash="f6c9e0cfb6198c54f0e7f4234ec156b3"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="Configurableoption.xml" hash="7aeb5683c1fb132836f41fdc09cf7922"/></dir><dir name="template"><dir name="Configurableoption"><dir name="catalog"><dir name="product"><dir name="view"><dir name="type"><dir name="options"><file name="configurable.phtml" hash="aa0b1d8804afd9c85eab77b1982ddb9d"/></dir></dir></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Inic_Configurableoption.xml" hash="2357b155b96058ec3934b381d0590367"/></dir></target><target name="mage"><dir name="js"><dir name="configurableoption"><file name="configure.js" hash="c89160bab9f1fc7e89bb01cb43c666b0"/></dir></dir></target></contents>
+    <summary>Display simple products images and other info on configurable product's detail page </summary>
+    <description>This extension allow you to display simple product's images even name,description, short description and additional information on change options of configurable products, &#xD;
+&#xD;
+After installed extension, go to admin panel, clear cache if enabled after go to System-&gt;configuration-&gt;CATALOG-&gt;Catalog-&gt;Configurable Product's Image Enable as "yes" from there.&#xD;
+&#xD;
+Now go to frontend and reach at configurable product detail page after try to change options on this products detail page. &#xD;
+&#xD;
+Which options you will select, same simple product image replaced with main image. Also product name,decription,short description and additional info replaced with main product info.&#xD;
+&#xD;
+This extension work for only configurable products. &#xD;
+&#xD;
+Note : This extension will not work with rwd default theme of magento</description>
+    <notes>Next Beta version release</notes>
+    <authors><author><name>ps</name><user>ps_patel</user><email>pspatel5101987@gmail.com</email></author></authors>
+    <date>2015-05-27</date>
+    <time>06:19:47</time>
+    <contents><target name="magelocal"><dir name="Inic"><dir name="Configurableoption"><dir name="Block"><file name="Additionaldata.php" hash="0d6c2cc23df6b30284d340edfbc99e94"/><dir name="Product"><dir name="View"><dir name="Type"><file name="Configurable.php" hash="e979d7b6e4feb68412d9008b44b1b0bd"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="2d0ed955c469a25827bb85a6548b39f8"/><file name="system.xml" hash="f6c9e0cfb6198c54f0e7f4234ec156b3"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="configurableoption.xml" hash="4e2590c14ae97290f0777795c0cb29b6"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Inic_Configurableoption.xml" hash="2357b155b96058ec3934b381d0590367"/></dir></target><target name="mage"><dir name="."><dir name="js"><dir name="configurableoption"><file name="configure.js" hash="a6c7fc27c492e12c453a33aa48653cb2"/></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7</max></package><extension><name>gd</name><min>2.0.28</min><max>3.0</max></extension></required></dependencies>
 </package>

@@ -3,10 +3,10 @@
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
-    "description": "This extension working for only configurable products",
+    "description": "Display simple products images and other info on configurable product's detail page ",
     "authors": [
     {
-        "name": "ps_patel",
+        "name": "ps",
         "email": "pspatel5101987@gmail.com"
     }
 ],
