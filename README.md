@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Display simple products images and other info on configurable product's detail page 
