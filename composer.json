@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Inic_Configure",
+    "name": "OpenMageModuleFostering\/Inic_Configure",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Display simple products images and other info on configurable product's detail page ",
     "authors": [
-    {
-        "name": "ps",
-        "email": "pspatel5101987@gmail.com"
-    }
-],
+        {
+            "name": "ps",
+            "email": "pspatel5101987@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
